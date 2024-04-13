@@ -13,6 +13,7 @@ public class Main {
     public static void main(String[] args) {
         Stream impares = Stream.iterate(1, x -> x + 2).limit(10);
 
+//test 1304 -1 
         impares.forEach(System.out::println);
 
         // Definir el BinaryOperator sum que referencia al método estático Integer::sum
