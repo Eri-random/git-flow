@@ -44,6 +44,8 @@ public class Main {
 
         stream.forEach(System.out::println);*/
 
+        //hola estoy probando reglas de github
+
         List<String>  palabras = Arrays.asList("Java", "Lambdas",  "Stream", "API");
 
         Optional<String> alguno = palabras.stream().findAny();
