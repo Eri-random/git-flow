@@ -22,6 +22,8 @@ public class Main {
         int num1 = 5;
         int num2 = 10;
 
+        // Comentario
+
         int resultado = sum.apply(num1, num2);
         System.out.println("El resultado de la suma es: " + resultado);
 
